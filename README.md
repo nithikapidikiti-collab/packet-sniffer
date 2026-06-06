@@ -25,6 +25,13 @@ python3 sniffer.py
 
 Captured live traffic including HTTPS connections to GitHub, multicast DNS device discovery, and IoT device broadcasts on the local network.
 
+Live capture from a real Mac, showing:
+
+- HTTPS traffic to various servers (Mac background activity)
+- UDP multicast DNS packets to 224.0.0.251:5353 — Mac discovering devices on the network
+- An IoT device on the local network broadcasting requests
+- Connections to 140.82.112.21 and 140.82.114.25 — GitHub's servers
+
 ## Concepts demonstrated
 
 - Raw socket capture with Scapy
